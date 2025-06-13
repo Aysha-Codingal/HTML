@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Style Sheet</Title>
+        <style>
+            /* Internal Style */
+            p{
+                color: blueviolet;
+                font-size: 22px;
+            }
+            #one{color: rgb(0, 0, 0);}
+            .demo{
+                background-color:rgb(255, 116, 148);
+            }
+            *{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            h3,h1{
+                border:4px solid rgb(0, 0, 0);
+            }
+
+        </style>
+        <link rel="styleSheet" href="mystyle.CSS">
+    </head>
+    <body>
+        <h1 class="demo" style="color: rgb(159, 127, 255);">INLINE STYLE</h1>
+        <p>
+            INTERNAL STYLE 
+            This syle is defined in the style tag inside th head tag.
+        </p>
+        <h3 id="one" class="demo">ID selector</h3>
+    </body>
+</html>

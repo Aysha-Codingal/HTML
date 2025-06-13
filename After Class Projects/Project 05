@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cat
+    
+        </title>
+    </head>
+    <body>
+        <header id="header">
+            <nav>
+                <a href="#Head">
+Head 
+
+                </a>
+                <a href="#Content">
+Content 
+
+                </a>
+                <a href="#Footer">
+Footer
+
+                </a>
+            </nav>
+        </header>
+        <section id="Content"> 
+            <h1>Cat</h1>
+            <article>
+                <p>The cat is a small mammal that is often kept as a pet. It has soft fur, sharp claws, and keen senses. Cats are known for their agility and ability to hunt rodents. They come in various colors and patterns, such as tabby, calico, and black. Cats are independent creatures but also enjoy companionship. They groom themselves by licking their fur and sleep for long periods throughout the day. Some breeds are known for their playful nature, while others are more reserved. Overall, cats make wonderful companions for people of all ages.
+
+</p>
+            </article>
+            <aside>
+                <p>Cats are fascinating creatures with soft fur and sharp claws. They’re known for their independence and agility. People around the world love keeping cats as pets because of their companionship and hunting skills. These furry friends come in different breeds, colors, and sizes. Cats are carnivores, meaning they eat meat and fish. They’re excellent at grooming themselves. Cats communicate using various sounds, gestures, and purring. They’re skilled climbers and hunters, often seen sneaking up on their prey with precision. For centuries, cats have been cherished companions, bringing happiness and comfort to their human friends.</p>
+            </aside>
+            
+        </section>
+        <Figure>
+            <figcaption>Cat</figcaption>
+            <img src="cat-cartoon-character-clipart-ai-generated-free-png.webp" width="80%">
+            <img src="cat-vector-cartoon-illustration_1215145-7199.avif" width="80%">
+        </Figure>
+        <Footer id="Footer">
+            <Center>
+                <b>Contact Us On 9931027</b>
+            </Center>
+        </Footer>
+    </body>
+</html>
