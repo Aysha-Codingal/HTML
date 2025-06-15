@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Selectors</title>
+        <style>
+            input[type=text]{
+                border: 3px solid darkgreen;
+            }
+            /* child selector */
+            ul>li{
+                color: maroon;
+                font-size: 25px;
+
+
+            }
+            /*sibling selector */
+            h1+p{
+                color: indigo;
+                
+            }
+            /*psuedo classes */
+            a:hover{
+                color:darkred ;
+                font-size:  22px;
+            
+            }
+        ul>li:nth-child(3){
+            background-color: lightcyan;
+        }
+        ul>li::before{
+            content:"🌟";
+        }
+        p::after{
+            content:"🌟";
+        }
+        p::first-letter{
+            font-size: 200%;
+            color: rgb(244, 0, 0);
+
+        }
+        </style>
+    </head>
+    <body>
+        <input type="text"><br>
+        <h1>Space exploration</h1>
+        <ul>
+            <li>Moon mission</li>
+            <li>Land Rovers</li>
+            <li>Satellite</li>
+            <li>Space station</li>
+        </ul>
+        <h1>Space</h1>
+        <p>An experiment involving artificial organs is just one way researchers are trying to capitalize on the weird ways low-gravity environments affect the human body.</p>
+        <p>To make a new moon, you need to line up the sun, moon and Earth. From the earthbound observer's viewpoint, the sun and moon are at the same celestial longitude, a projection of the Earth's longitude lines on the sky. Most often the moon passes above or below the sun but at times it passes directly between the sun and Earth, creating a solar eclipse as happened during March's new moon and will happen again in September of this year.</p>
+        <a href="#">space</a>
+
+    </body>
+</html>
