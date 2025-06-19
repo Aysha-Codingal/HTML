@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Selectors</title>
+        <style>
+            input[type=text]{
+                border: 3px solid rgb(100, 0, 63);
+            }
+            /* child selector */
+            ul>li{
+                color: rgb(0, 83, 128);
+                font-size: 25px;
+
+
+            }
+            /*sibling selector */
+            h1+p{
+                color: rgb(0, 0, 0);
+                
+            }
+            /*psuedo classes */
+            a:hover{
+                color:rgb(255, 151, 151) ;
+                font-size:  22px;
+            
+            }
+        ul>li:nth-child(3){
+            color: rgb(0, 83, 128);;
+        }
+        ul>li::before{
+            content:"💜";
+        }
+        p::after{
+            content:"💜";
+        }
+        p::first-letter{
+            font-size: 200%;
+            color: rgb(39, 209, 133);
+
+        }
+        </style>
+    </head>
+    <body>
+        <input type="text"><br>
+        <h1>Ailyn</h1>
+        <ul>
+            <li>Best Friend</li>
+            <li>Hilarious</li>
+            <li>Kind</li>
+            <li>Respectful</li>
+        </ul>
+        <h1>Ailyn</h1>
+        <p>Ailyn is the only true and believable best friend I  ever had in my life. She is really kind girl.</p>
+        <p>She is a very pretty and chubby girl. She is a tall girl like me. She always help me with my works I really love her sooooooooo much.
+
+        </p>
+        <a href="#">Ailyn</a>
+
+    </body>
+</html>

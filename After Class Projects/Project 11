@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Box model
+        </title>
+        <style>
+            img{
+                width: 100px;
+                height: 100px;
+                border: 10px solid black;
+
+            }
+            img#img1{
+                float: left;
+            }
+            img#img2{
+                float: right;
+            }
+
+        </style>
+    </head>
+    <html
+    <div id="div1">
+        <img id="img2" src="muslim-women-holding-hands-mosque-background-with-flat-design-style_995281-13822.jpg">
+        <img id="img1" src="happy-muslim-best-friends-muslimah-bestie-flat-cartoon-character_513640-1020.avif">
+        <p>
+           I have many bestfriends. But the most I like to have as a bestfriend is Ailyn. She is a very kind girl. She is sooooo hilarious. Ailyn always helps me with my school works. She is the first bestfriend i got in grade 6. But now onwards i will never ever forget her in my life. I love Ailyn soooooo much.❤❤❤❤ 
+        </p>
+</html>

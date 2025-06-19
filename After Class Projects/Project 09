@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Text styling</title>
+    <style>
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(190, 70, 106);
+        }
+        p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            font-size: 100px;
+            color: mediumblue;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Cats</h1>
+        <p>“Cat” is a notable topic on which students may be asked to write a paragraph in school exams. Cats are small, playful  pets with soft fur. They love to explore, hunt, and enjoy spending time with people.</p>
+    </body>
+</html>
