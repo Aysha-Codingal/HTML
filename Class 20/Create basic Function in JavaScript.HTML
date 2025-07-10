@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: rgb(255, 179, 179);
+            text-align: center;
+            margin-top: 200px;
+           }
+        </style>
+    </head>
+    <body>
+        <div id="div1">
+            <button onclick="myfunction(50)">Click here</button>
+            <div id="content1"></div>
+        </div>
+        <script>
+            function myfunction(x,y)
+            {
+                if (y==undefined)
+                {
+                    y=3
+                }
+                res = x*y
+                document.getElementById("content1").innerHTML = res
+                
+            }
+        </script>
+    </body>
+</html>
