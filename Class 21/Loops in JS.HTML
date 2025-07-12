@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+           div::before{
+            content:"🎀"
+           }
+           div::after{
+            content: "🎀"
+           }
+        </style>
+    </head>
+   <body>
+    <h1>LOOPS</h1>
+    <div id="res"></div>
+    <script>
+        var fruits = ["cherry","Watermelon","Strawberry","Apple","Blueberry"]
+        var str1 = ""
+        for (var i = 0; i<fruits.length;i++)
+    {
+        str1 = str1 + "<br>" + fruits [i]
+    }
+    document.getElementById("res").innerHTML = str1 + "<br>"
+    </script>
+   </body>
+</html>

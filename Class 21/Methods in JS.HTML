@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+           div::before{
+            content:"🎀"
+           }
+           div::after{
+            content: "🎀"
+           }
+        </style>
+    </head>
+   <body>
+    <h1>METHODS</h1>
+    <div id="res"></div>
+    <div id="res1"></div>
+    <div id="res2"></div>
+    <div id="res3"></div>
+    <script>
+        var str1 = "Farhana"
+        document.getElementById("res").innerHTML = str1.toLowerCase()
+        document.getElementById("res1").innerHTML = str1.toUpperCase()
+        document.getElementById("res2").innerHTML = str1.startsWith('C')
+        var str2 = "I am learning JavaScript"
+        var reg = new RegExp ('about')
+        var s = reg.test(str2)
+        document.getElementById("res3").innerHTML = s
+    </script>
+   </body>
+</html>

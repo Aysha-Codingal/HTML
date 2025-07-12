@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+           div::before{
+            content:"🎀"
+           }
+           div::after{
+            content: "🎀"
+           }
+        </style>
+    </head>
+   <body>
+    <h1>SWITCH CASE</h1>
+    <div id="res"></div>
+    <script>
+    var dt = new Date ()
+    var day =  dt.getDay()
+    var day1
+    switch (day){
+        case 0:
+            day1 = "Sunday"
+            break;
+            case 1:
+            day1 = "Monday"
+            break;
+            case 2:
+            day1 = "Tuesday"
+            break;
+            case 3:
+            day1 = "Wednesday"
+            break;
+            case 4:
+            day1 = "Thursday"
+            break;
+            case 5:
+            day1 = "Friday"
+            break;
+            case 6:
+            day1 = "Saturday"
+            break;
+
+    }
+    document.getElementById("res").innerHTML = "Today is " +day1
+    </script>
+   </body>
+</html>
