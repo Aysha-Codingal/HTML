@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>OBJECTS</h1>     <br>   <br>
+    
+    <div id="res"></div>
+    <div id="res1"></div>
+    <div id="res2"></div>
+    <div id="res3"></div>
+    <script>
+    document.getElementById("res").innerHTML = "The sine value of -1 is" + Math.sin(-1)
+    document.getElementById("res1").innerHTML = "The cos value of 90 is" + Math.cos(90)
+    document.getElementById("res2").innerHTML = "The tan value of 1 is" + Math.tan(1)
+    document.getElementById("res3").innerHTML = "The absolute value of -30 is" + Math.abs(-30)
+
+    </script>
+
+    </body>
+</html>
