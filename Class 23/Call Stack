@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Arrays</title>
+    </head>
+    <body>
+        <h1> arrays</h1>
+        <div id="res"></div>
+      
+        <script>
+          function add(a,b){
+            return a + b
+          }
+          function average(a,b)
+          {
+            return add(a,b)/2
+          }
+          document.getElementById("res").innerHTML="the average is" +average (10,34)
+        </Script>
+        
+
+    </body>
+</html>
