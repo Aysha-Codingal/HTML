@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONDITIONS</title>
+            
+   
+        </head>
+    <body>
+        <h1>CONDITIONS</h1>
+        <div id = "res"></div>
+        
+        <script>
+            var dt = new Date() 
+            var hr = dt.getHours()
+            var msg
+            if (hr < 10)
+        {
+            great = "Good Morning"
+        }
+        else if ( hr < 20)
+        {
+            greet = "Good Day"
+        }
+        else {
+            greet = "Good Evening"
+        }
+
+            document.getElementById("res").innerHTML="the current hour is " +hr + "<br>" +greet
+        </script>
+       
+    </body>
+</html>
