@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inheritance</title>
+    </head>
+    <body>
+        <h1>Inheritance in JavaScript</h1>
+        <div id = "result"></div>
+        <script>
+               class car{
+                constructor(brand)
+                {
+                    this.brand = brand
+                }
+                present(){
+                    document.write("my brand is " + this.brand + "<br>")
+                }
+                
+               }
+               class model extends car{
+               constructor(brand,mod)
+                {
+                    super(brand)
+                    this.mod = mod
+                }
+                display(){
+                    this.present()
+                    document.write("my model is " +this.mod)
+                }
+
+               }
+               m1 = new model("toyota","ferrari")
+               m1.display()
+        </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static Methods</title>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 6px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: rgb(211, 0, 148);
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Static Methods in JavaScript</h1>
+        <div id = "result"></div>
+        <script>
+            class  myclass{
+                static hi()
+                {
+                    document.write("this is a static method")
+                }
+                hello(){
+                    document.getElementById("result").innerHTML = "hello"
+                    this.hi()
+                }
+            }
+            obj1 = new myclass()
+            obj1.hello()
+            //obj1.hi()
+
+</script>
+    </body>
+</html>
