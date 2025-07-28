@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<title>
+
+Pagination
+
+
+</title>
+
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+</head>
+<body>
+    <div class="container">
+      <H1>Pagination</H1>
+      <ul class="pagination">
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">Next</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">1</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">2</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">3</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">4</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">5</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">6</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">7</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">8</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">9</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link bg-info text-dark">Previous</a>
+        </li>
+
+      </ul>
+
+
+        </div>
+    </div>
+</body>
+</html>

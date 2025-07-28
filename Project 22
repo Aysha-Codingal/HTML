@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: cornflowerblue;
+            border: 10px solid rgb(224, 153, 255);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: rgb(0, 0, 0);
+           }
+        </style>
+    </head>
+    <body>
+        <h1>OBJECTS</h1>     <br>   <br>
+    
+    <div id="res"></div>
+    <script>
+    function findmax(){
+        var i,max; 
+        max = 0
+        for(var i = 0; i< arguments.length ; i++)
+        {
+            if (arguments[i] > max)
+        {
+            max = arguments [i]
+        }
+        }
+        return max
+    }
+    
+    document.getElementById("res").innerHTML = "the greatest value is " + findmax (23,45,96,247,247,23,3457,707,889)
+    </script>
+
+    </body>
+</html>

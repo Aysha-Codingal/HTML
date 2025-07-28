@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+
+<title>
+
+Bootstrap Typgraphy
+
+
+</title>
+
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+</head>
+    <body>
+        <div class="container">
+        <abbr title="Automated Teller Machine">ATM</abbr>
+            <pre>
+                Beyond this frozen yonder,
+a rain of love and sacrifice
+unfroze the still, red rose.
+.....
+            </pre>
+            <blockquote class="blockquote">
+                        success
+IS NOT FINAL.
+failure
+IS NOT FATAL:
+IT IS THE
+COURAGE
+TO CONTINUE
+THAT
+COUNTS
+
+<footer class="blockquote-footer">
+    - WINSTON CHURCHILL-
+</footer>
+
+
+</blockquote>
+    </div>
+    </body>
+</html>

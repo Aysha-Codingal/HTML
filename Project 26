@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS class</title>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: rgb(237, 100, 100);
+            font-size: 30px;
+           }
+           div{
+            background-color: rgb(134, 198, 255);
+            border: 6px solid rgb(255, 254, 254);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: rgb(0, 0, 0);
+           }
+        </style>
+    </head>
+
+    <body>
+        <h1>JavaScript Classes</h1>
+        <div id = "result"></div>
+        <script>
+            class student {
+                constructor(name,year){
+                    this.name = name;
+                    this.year = year
+                }
+                age (){
+                    var dt = new Date()
+                    var yr = dt.getFullYear()
+                    var myage = yr-this.year
+                    document.getElementById("result").innerHTML = "The name of the student is "+this.name +"<br>"+
+                    "The age of the student is "+ myage
+                }
+            }
+            let student1 = new student("Rania",2020)
+            student1.age()
+
+        </script>
+    </body>
+</html>

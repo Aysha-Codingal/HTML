@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head><title>
+        Tables
+        </title></head>
+        <body>
+            <H1>My Forever besties</H1>
+            <table border = 3 width = 100% bgcolor = "lightpink" height = 200px>
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Fav Colour</th></tr>
+            <tr align = center>
+                <td>Ailyn</td>
+                <td>Grade 7</td>
+                <td>Blue</td>
+            
+                <tr align = center>
+                <td>Ulaa</td>
+                <td>Grade 7</td>
+                <td>Purple</td>
+            </tr>
+<tr align = center>
+    <td>Aysha</td>
+    <td>Grade 7 </td>
+    <td>Purple</td>
+</tr>
+        </body>
+</html>

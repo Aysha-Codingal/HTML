@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: rgb(0, 0, 0);
+            border: 10px solid cornflowerblue;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(191, 185, 255);
+           }
+           div::before{
+            content:"🌷"
+           }
+           div::after{
+            content: "🌷"
+           }
+        </style>
+    </head>
+   <body>
+    <h1>LOOPS</h1>
+    <div id="res"></div>
+    <script>
+        var colours = ["Purple","Blue","Pink","Green","Red"]
+        var str1 = ""
+        for (var i = 0; i<colours.length;i++)
+    {
+        str1 = str1 + "<br>" + colours [i]
+    }
+    document.getElementById("res").innerHTML = str1 + "<br>"
+    </script>
+   </body>
+</html>
