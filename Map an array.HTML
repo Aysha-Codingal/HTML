@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Map an array</h1>
+    </head>
+    <body>
+        <body>
+        <div id = "but">
+            <h1>Before Mapping</h1>
+            <div id = res1></div>
+            <h1>After Mapping</h1>
+              <div id = res></div>
+                
+        </div>
+        <script>
+            var a = [12,23,45,76,39,27,83,20,30]
+            document.getElementById("res1").innerHTML = a
+            function mul(a)
+            {
+                return a * 10
+            }
+            var result = a.map(mul)
+            document.getElementById("res").innerHTML = result
+            </script>
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>SORT & REVERSE NUMBERS</h1>
+    </head>
+    <body>
+        <div id = "but">
+            <button name = "but1" onclick = asc()>Ascending></button>
+            <button name = "but1" onclick = desc()>Descending></button>
+            <div id = res></div>
+        </div>
+        <script>
+            var a = [12,23,45,76,39,27,83,20,30]
+            document.getElementById("res").innerHTML = a
+            function asc(){
+                var res = a.sort(function(a,b){return a - b})
+                document.getElementById("res").innerHTML = res
+
+            }
+            function desc(){
+                var res = a.sort(function(a,b){return b - a})
+                document.getElementById("res").innerHTML = res
+                }
+        </script>
+    </body>
+</html>
