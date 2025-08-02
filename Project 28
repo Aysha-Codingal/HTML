@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error handling</title>
+        <h1>Error Handling</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <div id = "disp">
+        <div id = "res"></div>
+        <div id = "res1"></div>
+     </div>
+    </body>
+    <script>
+       try{
+        addalert(a,t)
+       }
+       catch(err){
+        document.getElementById("res").innerHTML = "The error is " +err
+       }
+    </script>
+</html>
