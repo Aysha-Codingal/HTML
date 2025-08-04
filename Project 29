@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asynchronus</title>
+        <h1>ASYNCHRONUS</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           script{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+    
+    <script>
+     document.write(5 + "<br>")
+     document.write(10 + "<br>")
+     async function add(a,b){
+        let response = await a+b
+        display(response)
+     }
+     function display(some){
+        document.write(some)
+     }
+     add(5,20);
+     document.write(15 + "<br>")
+     document.write(20 + "<br>")
+
+    </script>
+    </body>
+</html>
