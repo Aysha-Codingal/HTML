@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PROMISES</title>
+        <h1>PROMISES</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <div id = "demo"></div>
+        
+     </div>
+    <script>
+    function mydisplayer(some){
+        document.getElementById("demo").innerHTML = "the result is " + some;
+
+    }
+    function sum(a,b){
+        var sum = a + b;
+        mydisplayer(sum);
+    }
+    let mypromise = new Promise(function(myResolve, myReject){
+        let x = 0;
+        if (x == 0){
+            myResolve ("OK");
+        } else {
+            myReject("Error");
+        }
+    });
+    mypromise.then(
+        function(value) {sum(5,5);},
+        function(error) {sum(error);}
+    );
+    </script>
+    </body>
+</html>

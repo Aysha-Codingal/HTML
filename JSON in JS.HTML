@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error handling</title>
+        <h1>JSON</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <div id = "result"></div>
+        <div id = "result1"></div>
+     </div>
+    </body>
+    <script>
+      student = { "name":"Fathima",
+      "age":20}
+      var myjson = JSON.stringify(student)
+      document.getElementById("result").innerHTML = "the json object " + myjson
+      var jobj = JSON.parse(myjson)
+      document.getElementById("result1").innerHTML = "the Jobject after paring <br>" + jobj.name + "<br>" +jobj.age
+
+    </script>
+</html>

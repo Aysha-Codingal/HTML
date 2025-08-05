@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Callback function</title>
+        <h1>CALLBACK FUNCTION</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <div id = "result"></div>
+        
+     </div>
+    </body>
+    <script>
+     function display(value){
+        document.getElementById("result").innerHTML = "the result is "+ value
+     }
+     function add(a,b,mydisplay)
+     {
+        var c = a+ b
+        mydisplay(c)
+     }
+     add(239,45,display)
+    </script>
+    </body>
+</html>
