@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM VALIDATION</title>
+        <h1>FORM VALIDATION</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <form name = "fname" onsubmit="validateform()"></form>
+     Name <input type = "text" name = "fname" id = "fname">
+     <br><br><br>
+     <input type="submit">
+     </form>
+     <script>
+        function validateform(){
+            var x = document.getElementById("fname").value
+            if(x == "")
+        {
+            alert("Name must be filled") 
+        }
+        }
+     </script>
+    </body>
+</html>

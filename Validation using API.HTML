@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM VALIDATION</title>
+        <h1>FORM VALIDATION</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+    <input id="myid" type = number min = 20 max = 50 required>
+    <button onclick="check()">validate</button>
+    <p id="result"></p>
+    <script>
+        function check(){
+            var x = document.getElementById("myid")
+
+            if(!x.checkValidity())
+        {
+            document.getElementById("result").innerHTML = x.validationMessege;
+        }
+        else{
+             document.getElementById("result").innerHTML = "input ok";
+        }
+        }
+    </script>
+    </body>
+</html>
