@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM VALIDATION</title>
+        <h1>FORM VALIDATION</h1>
+        <style>
+           body{
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            color: cornflowerblue;
+            font-size: 30px;
+           }
+           div{
+            background-color: aliceblue;
+            border: 2px solid darkviolet;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: darkviolet;
+           }
+        </style>
+    </head>
+    <body>
+     <form name="myForm" onsubmit="validateForm();">
+        Name: <input type="text" name="fname">
+        Age: <input id="id1" type="number" min="18">
+        <input type="submit" value="Login">
+        <p id="messege"></p>
+     </form>
+     <script>
+        function validateForm(){
+            var x = document.forms["myForm"]["fname"].value;
+            var y = document.forms["myForm"]["id1"].value;
+            if (x == "" || y == "") {
+                alert("Name/ age cannot be emty");
+                return false;
+            }
+            else
+            alert("Succesfully logged in");
+        }
+     </script>
+    </body>
+</html>
