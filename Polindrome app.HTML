@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Polidrome App</title>
+        <style>
+          div{
+            background: #d4edda;
+            width: 200px;
+            color: #155724;
+        }
+           h1 {
+            color: #333;
+            margin-top: 0;
+           }
+            body {
+            font-family: Arial, sans-serif;
+            background: #b7d4ff;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+        div{
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        </style>
+                
+                  <body>
+            <h1>POLIDROME</h1>
+            <div id="res"></div>
+            <script>
+                function palidrome(mystring){
+                    var input = mystring.replace(/[^A-Z0-9]/ig,"")
+                    var revinput = input.split("").reverse().join("")
+
+                    if (input == revinput){
+                        document.getElementById("res").innerHTML= mystring+ " is a palidrome"
+                    }
+                    else{
+                        document.getElementById("res").innerHTML=mystring+ " is not a palidrome"
+                    }
+                }
+                palidrome("racecar")
+            </script>
+        </body>
+    </head>
+</html>
