@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div id = "mysection">
+        <h1 id="disp" onload="showTime()"></h1> 
+        </div>
+        <script>
+            function showTime(){
+                var date = new Date();
+                var h = date.getHours();
+                var m = date.getMinutes();
+                var s = date.getSeconds();
+                var sesion = " AM"
+                if (h==0)
+            {
+                h = 12
+            }
+            if (h > 12)
+            {
+                h = h -12;
+                sesion = " PM"
+            }
+            h = (h < 10)? "0"+h :h;
+            m = (m < 10)? "0"+m :m;
+            s = (s < 10)? "0"+s :s;
+
+            document.getElementById("disp").innerHTML = h + ":" +m + ":" + s + sesion
+            setTimeout(showTime,1000)
+            }
+            showTime()
+        </script>
+    </body>
+</html>
