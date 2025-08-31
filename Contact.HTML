@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAPSTONE PROJECT</title>
+        <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b4c2ff;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        .navbar {
+            background-color: #947cb7;
+            padding: 1rem 2rem;
+            border: 9px solid black;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        
+        .navbar a {
+            text-decoration: none; 
+            color: white;
+            font-weight: bold;
+            padding: 12px 17px;
+            transition: color 0.3s;
+        }
+        
+        .navbar a:hover {
+            color: #b4c2ff;
+        }
+        
+        .navbar a.active {
+            color: rgb(255, 255, 255);
+        } 
+        
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+            color: darkblue;
+            margin: 20px 0;
+        }
+        
+        h1::before {
+            content: "🌟";
+            margin-right: 15px;
+        }
+        
+        h1::after {
+            content: "🌟";
+            margin-left: 15px;
+        }
+        
+        .contactme {
+            background-color: #c3afe2;
+            width: 400px;
+            margin: 30px auto;
+            padding: 30px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 2px solid #947cb7;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            background-color: #5d3f87;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .footer {
+            background-color: #947cb7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href = "index.html" class = "active">HOME</a>
+            <a href = "about.html">ABOUT US</a>
+            <a href = "gallery.html" >GALLERY</a>
+            <a href = "contact.html">CONTACT US</a>
+            
+        </div>
+        <h1>CONTACT FORM</h1>
+        
+        <script language = "javascript" src="style.js"></script>
+        
+        <div class="contactme">
+          <form name="contactform">
+            
+            <label for="fname">
+              FirstName
+            </label>
+            <input type= text><br><br>
+            <label>
+              Queries
+            </label>
+            <textarea></textarea><br><br>
+            <input type="submit">
+          </form>
+        </div>
+
+    </body>
+</html>

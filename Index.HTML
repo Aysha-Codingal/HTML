@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAPSTONE PROJECT</title>
+        <style>
+           body{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #947cb7;
+           
+           }
+           .navbar{
+            background-color: #947cb7;
+            padding: 1rem 2rem;
+            border: 9px solid black;
+            display: flex;
+            gap: 1.5rem;
+           }
+           .navbar a{
+                text-decoration: none; 
+                color: white;
+            
+            
+            font-weight: bold;
+            padding: 12px 17px;
+            transition: color 0.3s;
+           }
+            .navbar a:hover {
+            color: #b4c2ff;
+            }
+            .navbar a.active{
+            background-color: yellowgreen;
+            color: darkcyan;
+             
+            } 
+              h1{
+                text-align: center;
+                text-decoration: underline;
+                text-transform: capitalize;
+              }
+              .carousel-container {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 300px;
+              }
+              .myslides{
+                display: none;
+                max-height: 100%;
+                max-width: 100%;
+              }
+              .footer{
+                background-color: #947cb7;
+                color: white;
+                left: 0px;
+                bottom:0px;
+                text-align: center;
+                width: 100%;
+                position: absolute;
+              }
+        </style>
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="index.html" class = "active">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="gallery.html" >GALLERY</a>
+            <a href="contact.HTML">CONTACT US</a>
+            
+        </div>
+        <h1>My Paintings</h1>
+        <div class = "carousel-container">
+            <img class = "myslides" src="Pic1.jpg" alt="image1" border="4">
+            <img class = "myslides" src="Pic2.jfif" alt="image1" border="4">
+
+           <img class = "myslides" src="Pic3.jpg" alt="image1" border="4">
+
+        </div>
+        <script language = "javascript" src="style.js"></script>
+        <div class="footer">
+          @ all copyrigths reserved to AYSHA<br>
+          contact : 📞+91 3815925459
+        </div>
+        
+
+    </body>
+</html>
